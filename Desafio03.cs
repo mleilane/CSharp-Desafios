@@ -45,9 +45,9 @@
             }
 
             // Exibir os resultados
-            Console.WriteLine($"Menor faturamento diário: R$ {menorFaturamento}");
-            Console.WriteLine($"Maior faturamento diário: R$ {maiorFaturamento}");
-            Console.WriteLine($"Média mensal de faturamento: R$ {mediaMensal}");
+            Console.WriteLine($"Menor faturamento diário: R$ {menorFaturamento:F2}");
+            Console.WriteLine($"Maior faturamento diário: R$ {maiorFaturamento:F2}");
+            Console.WriteLine($"Média mensal de faturamento: R$ {mediaMensal:F2}");
             Console.WriteLine($"Número de dias com faturamento acima da média: {diasAcimaMedia}");
         }
     }
